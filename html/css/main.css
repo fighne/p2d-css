@@ -32,5 +32,10 @@ html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4f
 
 .bodyPage {}
 .pageUnit {}
-.unitTopRail { width:100%; height:30px;}
-.topRailButtons { float:right;}
+.unitTopRail { width:100%; height:30px; background-color:#fff;}
+
+.topRailButtons { float:right; position:relative; top:30px;}
+.topRailButtons .topcoat-button-bar .topcoat-button-bar__item { display:none;}
+.topRailButtons .topcoat-button-bar .topcoat-button-bar__item:nth-child(5) {display:inline;}
+.topRailButtons:hover .topcoat-button-bar .topcoat-button-bar__item {display:inline;}
+
